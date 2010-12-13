@@ -1,0 +1,8 @@
+<% unless session[:user] %>
+  <h1>Hello!</h1>
+  <p>Welcome to our cool site</p>
+  <p>Please <%= link_to 'login', session_create_url %></p>
+<% else %>
+  <h1>Welcome back <%= session[:user][:name] %></h1>
+  <p>The following data could be extracted from your session: <%=  session[:user].inspect %></p>
+<% end %>

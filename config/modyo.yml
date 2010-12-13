@@ -1,0 +1,15 @@
+development:
+    key: ZwCiXbGtgSbeNAU8MnjFg
+    secret: xNoDZvllmBjk75ESlyC2tmJXzHY2ZI0kKexLtWQU
+    site: http://blackberry.socialcrmsite.dev:3000
+
+test:
+    key: ZwCiXbGtgSbeNAU8MnjFg
+    secret: xNoDZvllmBjk75ESlyC2tmJXzHY2ZI0kKexLtWQU
+    site: http://blackberry.socialcrmsite.dev:3000
+
+production:
+    key: ZwCiXbGtgSbeNAU8MnjFg
+    secret: xNoDZvllmBjk75ESlyC2tmJXzHY2ZI0kKexLtWQU
+    site: http://blackberry.socialcrmsite.dev:3000
+

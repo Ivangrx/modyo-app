@@ -1,0 +1,1586 @@
+/!\ FAILSAFE /!\  Sat Dec 11 14:15:41 -0300 2010
+  Status: 500 Internal Server Error
+  Unknown database 'modyo-app_development'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/connection_adapters/mysql_adapter.rb:620:in `real_connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/connection_adapters/mysql_adapter.rb:620:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.10/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/string_coercion.rb:25:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/session/cookie_store.rb:100:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:114:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/reloader.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.10/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.10/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.10/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.10/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 14:15:55) [GET]
+Rendering site/index
+
+ActionView::TemplateError (undefined method `session_create_url' for #<ActionView::Base:0xb670ecb4>) on line #3 of app/views/site/index.html.erb:
+1: <h1>Hello!</h1>
+2: <p>Welcome to our cool site</p>
+3: <p>Please <%= link_to 'login', session_create_url() %></p>
+
+    app/views/site/index.html.erb:3
+
+Rendered rescues/_trace (75.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 14:17:45) [GET]
+Rendering site/index
+
+ActionView::TemplateError (undefined method `session_create_url' for #<ActionView::Base:0xb6648b90>) on line #3 of app/views/site/index.html.erb:
+1: <h1>Hello!</h1>
+2: <p>Welcome to our cool site</p>
+3: <p>Please <%= link_to 'login', session_create_url() %></p>
+
+    app/views/site/index.html.erb:3
+
+Rendered rescues/_trace (74.2ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 14:17:48) [GET]
+Rendering site/index
+
+ActionView::TemplateError (undefined method `session_create_url' for #<ActionView::Base:0xb68b6198>) on line #3 of app/views/site/index.html.erb:
+1: <h1>Hello!</h1>
+2: <p>Welcome to our cool site</p>
+3: <p>Please <%= link_to 'login', session_create_url() %></p>
+
+    app/views/site/index.html.erb:3
+
+Rendered rescues/_trace (33.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 14:19:27) [GET]
+Rendering site/index
+
+ActionView::TemplateError (undefined local variable or method `session_create_url' for #<ActionView::Base:0xb6759930>) on line #3 of app/views/site/index.html.erb:
+1: <h1>Hello!</h1>
+2: <p>Welcome to our cool site</p>
+3: <p>Please <%= link_to 'login', session_create_url %></p>
+
+    app/views/site/index.html.erb:3
+
+Rendered rescues/_trace (83.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 14:19:28) [GET]
+Rendering site/index
+
+ActionView::TemplateError (undefined local variable or method `session_create_url' for #<ActionView::Base:0xb68e3c60>) on line #3 of app/views/site/index.html.erb:
+1: <h1>Hello!</h1>
+2: <p>Welcome to our cool site</p>
+3: <p>Please <%= link_to 'login', session_create_url %></p>
+
+    app/views/site/index.html.erb:3
+
+Rendered rescues/_trace (32.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 14:19:28) [GET]
+Rendering site/index
+
+ActionView::TemplateError (undefined local variable or method `session_create_url' for #<ActionView::Base:0xb6776ef4>) on line #3 of app/views/site/index.html.erb:
+1: <h1>Hello!</h1>
+2: <p>Welcome to our cool site</p>
+3: <p>Please <%= link_to 'login', session_create_url %></p>
+
+    app/views/site/index.html.erb:3
+
+Rendered rescues/_trace (81.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 14:19:29) [GET]
+Rendering site/index
+
+ActionView::TemplateError (undefined local variable or method `session_create_url' for #<ActionView::Base:0xb6943304>) on line #3 of app/views/site/index.html.erb:
+1: <h1>Hello!</h1>
+2: <p>Welcome to our cool site</p>
+3: <p>Please <%= link_to 'login', session_create_url %></p>
+
+    app/views/site/index.html.erb:3
+
+Rendered rescues/_trace (33.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 14:19:29) [GET]
+Rendering site/index
+
+ActionView::TemplateError (undefined local variable or method `session_create_url' for #<ActionView::Base:0xb67b3a34>) on line #3 of app/views/site/index.html.erb:
+1: <h1>Hello!</h1>
+2: <p>Welcome to our cool site</p>
+3: <p>Please <%= link_to 'login', session_create_url %></p>
+
+    app/views/site/index.html.erb:3
+
+Rendered rescues/_trace (81.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 14:19:29) [GET]
+Rendering site/index
+
+ActionView::TemplateError (undefined local variable or method `session_create_url' for #<ActionView::Base:0xb6991edc>) on line #3 of app/views/site/index.html.erb:
+1: <h1>Hello!</h1>
+2: <p>Welcome to our cool site</p>
+3: <p>Please <%= link_to 'login', session_create_url %></p>
+
+    app/views/site/index.html.erb:3
+
+Rendered rescues/_trace (33.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 14:19:30) [GET]
+Rendering site/index
+
+ActionView::TemplateError (undefined local variable or method `session_create_url' for #<ActionView::Base:0xb67eced8>) on line #3 of app/views/site/index.html.erb:
+1: <h1>Hello!</h1>
+2: <p>Welcome to our cool site</p>
+3: <p>Please <%= link_to 'login', session_create_url %></p>
+
+    app/views/site/index.html.erb:3
+
+Rendered rescues/_trace (32.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 14:19:30) [GET]
+Rendering site/index
+
+ActionView::TemplateError (undefined local variable or method `session_create_url' for #<ActionView::Base:0xb69b36b8>) on line #3 of app/views/site/index.html.erb:
+1: <h1>Hello!</h1>
+2: <p>Welcome to our cool site</p>
+3: <p>Please <%= link_to 'login', session_create_url %></p>
+
+    app/views/site/index.html.erb:3
+
+Rendered rescues/_trace (34.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 14:20:47) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/site]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:20:50) [GET]
+
+NameError (uninitialized constant SessionController::Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (26.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:20:55) [GET]
+
+NameError (uninitialized constant SessionController::Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (76.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:21:18) [GET]
+
+NameError (uninitialized constant SessionController::Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (27.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:21:19) [GET]
+
+NameError (uninitialized constant Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (27.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:21:20) [GET]
+
+NameError (uninitialized constant Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (76.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:24:19) [GET]
+
+NameError (uninitialized constant SessionController::Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (27.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:24:19) [GET]
+
+NameError (uninitialized constant SessionController::Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (26.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:24:28) [GET]
+
+NameError (uninitialized constant SessionController::Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (67.2ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:24:30) [GET]
+
+NameError (uninitialized constant SessionController::Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (27.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:24:30) [GET]
+
+NameError (uninitialized constant SessionController::Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (26.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:24:31) [GET]
+
+NameError (uninitialized constant SessionController::Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (74.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:24:31) [GET]
+
+NameError (uninitialized constant SessionController::Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (27.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:24:32) [GET]
+
+NameError (uninitialized constant SessionController::Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (26.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:24:32) [GET]
+
+NameError (uninitialized constant SessionController::Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (74.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:24:32) [GET]
+
+NameError (uninitialized constant SessionController::Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (28.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:24:33) [GET]
+
+NameError (uninitialized constant SessionController::Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (26.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:24:33) [GET]
+
+NameError (uninitialized constant SessionController::Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (75.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:24:33) [GET]
+
+NameError (uninitialized constant SessionController::Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (28.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:24:33) [GET]
+
+NameError (uninitialized constant SessionController::Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (26.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:24:40) [GET]
+
+NameError (uninitialized constant Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (82.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:24:41) [GET]
+
+NameError (uninitialized constant Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (29.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:24:42) [GET]
+
+NameError (uninitialized constant Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (28.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:24:42) [GET]
+
+NameError (uninitialized constant Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (27.8ms)
+Rendered rescues/_request_and_response (47.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#callback (for 127.0.0.1 at 2010-12-11 14:24:43) [GET]
+
+NameError (uninitialized constant Modyo):
+  app/controllers/session_controller.rb:3
+
+Rendered rescues/_trace (29.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 14:25:24) [GET]
+
+NameError (uninitialized constant SessionController::UsersController):
+  app/controllers/session_controller.rb:27:in `callback'
+
+Rendered rescues/_trace (28.0ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 14:25:25) [GET]
+
+NameError (uninitialized constant SessionController::UsersController):
+  app/controllers/session_controller.rb:27:in `callback'
+
+Rendered rescues/_trace (72.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 14:25:25) [GET]
+
+NameError (uninitialized constant SessionController::UsersController):
+  app/controllers/session_controller.rb:27:in `callback'
+
+Rendered rescues/_trace (29.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 14:25:42) [GET]
+
+NameError (uninitialized constant SessionController::MODYO):
+  app/controllers/session_controller.rb:4:in `consumer'
+  app/controllers/session_controller.rb:27:in `callback'
+
+Rendered rescues/_trace (28.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 14:26:07) [GET]
+
+NameError (uninitialized constant SessionController::MODYO):
+  app/controllers/session_controller.rb:4:in `consumer'
+  app/controllers/session_controller.rb:27:in `callback'
+
+Rendered rescues/_trace (70.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 14:26:15) [GET]
+
+Net::HTTPRetriableError (302 "Found"):
+  /usr/lib/ruby/1.8/net/http.rb:2101:in `error!'
+  oauth (0.4.4) lib/oauth/consumer.rb:215:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (73.3ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 14:26:18) [GET]
+
+Net::HTTPRetriableError (302 "Found"):
+  /usr/lib/ruby/1.8/net/http.rb:2101:in `error!'
+  oauth (0.4.4) lib/oauth/consumer.rb:215:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (34.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 14:26:40) [GET]
+
+Net::HTTPRetriableError (302 "Found"):
+  /usr/lib/ruby/1.8/net/http.rb:2101:in `error!'
+  oauth (0.4.4) lib/oauth/consumer.rb:215:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (31.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 14:27:07) [GET]
+
+Net::HTTPFatalError (500 "Internal Server Error"):
+  /usr/lib/ruby/1.8/net/http.rb:2101:in `error!'
+  oauth (0.4.4) lib/oauth/consumer.rb:219:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (71.9ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 14:28:08) [GET]
+
+Net::HTTPFatalError (500 "Internal Server Error"):
+  /usr/lib/ruby/1.8/net/http.rb:2101:in `error!'
+  oauth (0.4.4) lib/oauth/consumer.rb:219:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (33.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 14:28:23) [GET]
+
+Net::HTTPFatalError (500 "Internal Server Error"):
+  /usr/lib/ruby/1.8/net/http.rb:2101:in `error!'
+  oauth (0.4.4) lib/oauth/consumer.rb:219:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (29.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 14:29:15) [GET]
+
+Net::HTTPFatalError (500 "Internal Server Error"):
+  /usr/lib/ruby/1.8/net/http.rb:2101:in `error!'
+  oauth (0.4.4) lib/oauth/consumer.rb:219:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (77.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 14:30:47) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.4) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (29.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 14:31:02) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.4) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (33.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 14:31:31) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.4) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (71.6ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 14:32:17) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.4) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (34.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 14:40:16) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.4) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (36.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:01:44) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.3) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.3) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (69.5ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:01:52) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.3) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.3) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (31.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:03:10) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.3) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.3) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (32.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:04:49) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.3) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.3) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (80.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:10:05) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.3.6) lib/oauth/consumer.rb:200:in `token_request'
+  oauth (0.3.6) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (70.6ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:16:12) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.3.6) lib/oauth/consumer.rb:200:in `token_request'
+  oauth (0.3.6) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (31.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:17:49) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.3.6) lib/oauth/consumer.rb:200:in `token_request'
+  oauth (0.3.6) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (32.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:21:02) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.3.6) lib/oauth/consumer.rb:200:in `token_request'
+  oauth (0.3.6) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (80.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:21:04) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.3.6) lib/oauth/consumer.rb:200:in `token_request'
+  oauth (0.3.6) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (30.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:21:09) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.3.6) lib/oauth/consumer.rb:200:in `token_request'
+  oauth (0.3.6) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (30.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:21:10) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.3.6) lib/oauth/consumer.rb:200:in `token_request'
+  oauth (0.3.6) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (30.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:21:12) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.3.6) lib/oauth/consumer.rb:200:in `token_request'
+  oauth (0.3.6) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (28.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:21:13) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.3.6) lib/oauth/consumer.rb:200:in `token_request'
+  oauth (0.3.6) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:30:in `callback'
+
+Rendered rescues/_trace (30.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:33:38) [GET]
+
+NoMethodError (undefined method `closed?' for nil:NilClass):
+  /usr/lib/ruby/1.8/net/http.rb:1060:in `request'
+  oauth (0.4.4) lib/oauth/consumer.rb:164:in `request'
+  oauth (0.4.4) lib/oauth/consumer.rb:197:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:21:in `callback'
+
+Rendered rescues/_trace (80.3ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:35:16) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:35:25) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.4) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:21:in `callback'
+
+Rendered rescues/_trace (69.2ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:35:29) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.4) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:21:in `callback'
+
+Rendered rescues/_trace (30.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:35:30) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.4) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:21:in `callback'
+
+Rendered rescues/_trace (31.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:35:31) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.4) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:21:in `callback'
+
+Rendered rescues/_trace (82.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:35:33) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.4) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:21:in `callback'
+
+Rendered rescues/_trace (31.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:35:34) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.4) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:21:in `callback'
+
+Rendered rescues/_trace (32.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:35:41) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.4) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:21:in `callback'
+
+Rendered rescues/_trace (83.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:35:42) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.4) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:21:in `callback'
+
+Rendered rescues/_trace (32.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:36:24) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.4) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:24:in `callback'
+
+Rendered rescues/_trace (69.8ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:36:26) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.4) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:24:in `callback'
+
+Rendered rescues/_trace (28.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:37:00) [GET]
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.4) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:23:in `callback'
+
+Rendered rescues/_trace (33.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2010-12-11 16:37:17) [GET]
+Redirected to http://blackberry.socialcrmsite.dev:3000/oauth/authorize?oauth_token=OYtyWue6fbkQlpnkCbSq
+Completed in 1054ms (DB: 0) | 302 Found [http://localhost/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 16:44:01) [GET]
+Rendering site/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2010-12-11 16:44:03) [GET]
+Redirected to http://blackberry.socialcrmsite.dev:3000/oauth/authorize?oauth_token=I8TmVcHIqtLtxZNNwAQv
+Completed in 1036ms (DB: 1) | 302 Found [http://localhost/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-11 16:48:25) [GET]
+  Parameters: {"oauth_token"=>"OYtyWue6fbkQlpnkCbSq", "oauth_verifier"=>"mr4fK0YzgxaOVOYiXJ8g"}
+
+ActionController::RoutingError (No route matches "/callback333" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 16:48:57) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2010-12-11 16:48:59) [GET]
+Redirected to http://blackberry.socialcrmsite.dev:3000/oauth/authorize?oauth_token=F7aa0Ckis3HPM9fnRHqM
+Completed in 1120ms (DB: 0) | 302 Found [http://localhost/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:49:05) [GET]
+  Parameters: {"oauth_token"=>"F7aa0Ckis3HPM9fnRHqM", "oauth_verifier"=>"XhRDmpW3381SJyoa5qS6"}
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.4) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:22:in `callback'
+
+Rendered rescues/_trace (33.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:51:43) [GET]
+  Parameters: {"oauth_token"=>"F7aa0Ckis3HPM9fnRHqM", "oauth_verifier"=>"XhRDmpW3381SJyoa5qS6"}
+
+NameError (uninitialized constant SessionController::User):
+  app/controllers/session_controller.rb:31:in `callback'
+
+Rendered rescues/_trace (82.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:57:20) [GET]
+  Parameters: {"oauth_token"=>"F7aa0Ckis3HPM9fnRHqM", "oauth_verifier"=>"XhRDmpW3381SJyoa5qS6"}
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.4) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:23:in `callback'
+
+Rendered rescues/_trace (28.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2010-12-11 16:57:26) [GET]
+Redirected to http://blackberry.socialcrmsite.dev:3000/oauth/authorize?oauth_token=OYxi3c6zyec396tTmfNA
+Completed in 1058ms (DB: 0) | 302 Found [http://localhost/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 16:57:31) [GET]
+  Parameters: {"oauth_token"=>"OYxi3c6zyec396tTmfNA", "oauth_verifier"=>"CPrav6cbFNiJwbjmhfce"}
+Redirected to http://localhost:4000/
+Completed in 2159ms (DB: 0) | 302 Found [http://localhost/callback?oauth_token=OYxi3c6zyec396tTmfNA&oauth_verifier=CPrav6cbFNiJwbjmhfce]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 16:57:33) [GET]
+Rendering site/index
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 17:26:19) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2010-12-11 17:26:20) [GET]
+Redirected to http://blackberry.socialcrmsite.dev:3000/oauth/authorize?oauth_token=r0FWrqcYykxusn7rsw
+Completed in 1757ms (DB: 0) | 302 Found [http://localhost/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 17:27:49) [GET]
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2010-12-11 17:27:51) [GET]
+Redirected to http://blackberry.socialcrmsite.dev:3000/oauth/authorize?oauth_token=eh2sM8CiZ9HhlQYIbfB5
+Completed in 1211ms (DB: 0) | 302 Found [http://localhost/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 18:04:20) [GET]
+  Parameters: {"oauth_token"=>"eh2sM8CiZ9HhlQYIbfB5", "oauth_verifier"=>"YIes1CamgWhi5yS57Ckn"}
+Redirected to http://localhost:4000/
+Completed in 2590ms (DB: 0) | 302 Found [http://localhost/callback?oauth_token=eh2sM8CiZ9HhlQYIbfB5&oauth_verifier=YIes1CamgWhi5yS57Ckn]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 18:04:23) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 18:04:26) [GET]
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 18:11:51) [GET]
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#destroy (for 127.0.0.1 at 2010-12-11 18:11:56) [GET]
+Redirected to http://localhost:4000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/session/destroy]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 18:11:56) [GET]
+Rendering site/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2010-12-11 18:11:59) [GET]
+Redirected to http://blackberry.socialcrmsite.dev:3000/oauth/authorize?oauth_token=lFbFa2ayeqBAmMkDsrmA
+Completed in 1214ms (DB: 0) | 302 Found [http://localhost/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 18:21:09) [GET]
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#destroy (for 127.0.0.1 at 2010-12-11 18:21:17) [GET]
+Redirected to http://localhost:4000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/session/destroy]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 18:21:17) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2010-12-11 18:21:19) [GET]
+Redirected to http://blackberry.socialcrmsite.dev:3000/oauth/authorize?oauth_token=puudcuMQAWdrJ8CMfGxm
+Completed in 1333ms (DB: 0) | 302 Found [http://localhost/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 18:21:25) [GET]
+  Parameters: {"oauth_token"=>"puudcuMQAWdrJ8CMfGxm", "oauth_verifier"=>"WOiTUUIWpy9MFNfpDSjG"}
+Redirected to http://localhost:4000/
+Completed in 2414ms (DB: 0) | 302 Found [http://localhost/callback?oauth_token=puudcuMQAWdrJ8CMfGxm&oauth_verifier=WOiTUUIWpy9MFNfpDSjG]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 18:21:27) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#destroy (for 127.0.0.1 at 2010-12-11 18:21:31) [GET]
+Redirected to http://localhost:4000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/session/destroy]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 18:21:31) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2010-12-11 18:21:32) [GET]
+Redirected to http://blackberry.socialcrmsite.dev:3000/oauth/authorize?oauth_token=zyViypw1uITu1ZQmQhR6
+Completed in 1315ms (DB: 0) | 302 Found [http://localhost/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-11 18:21:47) [GET]
+  Parameters: {"oauth_token"=>"zyViypw1uITu1ZQmQhR6", "oauth_verifier"=>"rTMHn0c0h1Jy4K3JKUCg"}
+Redirected to http://localhost:4000/
+Completed in 2428ms (DB: 0) | 302 Found [http://localhost/callback?oauth_token=zyViypw1uITu1ZQmQhR6&oauth_verifier=rTMHn0c0h1Jy4K3JKUCg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 18:21:49) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#destroy (for 127.0.0.1 at 2010-12-11 21:00:42) [GET]
+
+ActionController::UnknownAction (No action responded to destroy. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#logout (for 127.0.0.1 at 2010-12-11 21:00:47) [GET]
+
+ActionController::UnknownAction (No action responded to logout. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#destroy (for 127.0.0.1 at 2010-12-11 21:00:58) [GET]
+Redirected to http://localhost:4000/
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/session/destroy]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 21:00:58) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2010-12-11 21:01:00) [GET]
+Redirected to http://blackberry.socialcrmsite.dev:3000/oauth/authorize?oauth_token=FFEISYfomSZZ4fX9e2Rv
+Completed in 1252ms (DB: 0) | 302 Found [http://localhost/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-11 21:02:37) [GET]
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2010-12-11 21:02:39) [GET]
+Redirected to http://blackberry.socialcrmsite.dev:3000/oauth/authorize?oauth_token=hmGcPaLHCNeagLV5wqo5
+Completed in 1258ms (DB: 0) | 302 Found [http://localhost/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-12 15:30:25) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2010-12-12 15:30:27) [GET]
+Redirected to http://blackberry.socialcrmsite.dev:3000/oauth/authorize?oauth_token=eyHFZ4yhHyWZiKV038Ab
+Completed in 1717ms (DB: 0) | 302 Found [http://localhost/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-12 15:30:33) [GET]
+  Parameters: {"oauth_token"=>"eyHFZ4yhHyWZiKV038Ab", "oauth_verifier"=>"4G3RRl4uCYKM0u76YVtg"}
+Redirected to http://localhost:4000/
+Completed in 2642ms (DB: 0) | 302 Found [http://localhost/callback?oauth_token=eyHFZ4yhHyWZiKV038Ab&oauth_verifier=4G3RRl4uCYKM0u76YVtg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-12 15:30:36) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-12 18:00:29) [GET]
+  Parameters: {"oauth_token"=>"r0FWrqcYykxusn7rsw", "oauth_verifier"=>"5fENAz20jxZ7m1YJ26JP"}
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.4.4) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:27:in `callback'
+
+Rendered rescues/_trace (71.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-12 18:00:39) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2010-12-12 18:00:40) [GET]
+Redirected to http://blackberry.socialcrmsite.dev:3000/oauth/authorize?oauth_token=m0LlVtCXYz6Cujb8JXgw
+Completed in 1287ms (DB: 0) | 302 Found [http://localhost/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2010-12-12 18:00:46) [GET]
+  Parameters: {"oauth_token"=>"m0LlVtCXYz6Cujb8JXgw", "oauth_verifier"=>"BzIhTxtfhkEhhOp04eOC"}
+Redirected to http://localhost:4000/
+Completed in 2686ms (DB: 0) | 302 Found [http://localhost/callback?oauth_token=m0LlVtCXYz6Cujb8JXgw&oauth_verifier=BzIhTxtfhkEhhOp04eOC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-12 18:00:49) [GET]
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-12 18:47:30) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-12 19:26:24) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-12 19:26:24) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-12 19:26:24) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-12 19:26:25) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-12 19:26:25) [GET]
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-12 19:26:25) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-12-12 20:13:18) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
