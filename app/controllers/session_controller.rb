@@ -87,6 +87,16 @@ class SessionController < ApplicationController
     render :xml => user_info
   end
 
+  def feed
+    @user = current_user
+    @access_token = OAuth::AccessToken.new(SessionController.consumer, @user.token, @user.secret)
+    response =  @access_token.post("/api/base/feed", {:recipient => @user.modyo_id, :description => "invite his friends to this cool", :linkable => "Site", :link => "http://www.modyo.com"})
+    user_info = Hpricot.parse(response.body)
+    render :xml => user_info
+  end
+
+
+
   def destroy
     session[:user] = nil
 

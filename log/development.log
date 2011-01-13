@@ -8485,3 +8485,782 @@ Processing SessionController#mail (for 127.0.0.1 at 2011-01-12 18:30:34) [GET]
   [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
   [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
 Completed in 865ms (View: 0, DB: 1) | 200 OK [http://0.0.0.0/session/mail]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 13:00:36) [GET]
+Rendering site/index
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 13:00:53) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2011-01-13 13:00:54) [GET]
+Redirected to http://blackberry.socialcrmsite.dev:3000/oauth/authorize?oauth_token=wmVjNkMbXYsIcpTdCrIA
+Completed in 724ms (DB: 0) | 302 Found [http://0.0.0.0/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2011-01-13 13:01:03) [GET]
+  Parameters: {"oauth_token"=>"wmVjNkMbXYsIcpTdCrIA", "oauth_verifier"=>"RW18pqC7kBouwq5BOBHT"}
+  [4;36;1mUser Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`modyo_id` = '320985') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-01-13 16:01:04', `secret` = '7gYTrEL4Pkn8nK8qVCNWBExvAbyra7036LAnqH0u', `token` = 'RfjgCLSuFnClGWWsun6B' WHERE `id` = 1[0m
+  [4;36;1mSQL (58.2ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://0.0.0.0:3001/
+Completed in 1653ms (DB: 60) | 302 Found [http://0.0.0.0/callback?oauth_token=wmVjNkMbXYsIcpTdCrIA&oauth_verifier=RW18pqC7kBouwq5BOBHT]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 13:01:04) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 13:02:03) [GET]
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#mail (for 127.0.0.1 at 2011-01-13 13:02:06) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Completed in 831ms (View: 4, DB: 2) | 200 OK [http://0.0.0.0/session/mail]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 13:27:53) [GET]
+Rendering site/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2011-01-13 13:27:54) [GET]
+Redirected to http://switchtv.staging.socialcrmsite.com//oauth/authorize?oauth_token=75zWzrr8tA4W61pr7I1f
+Completed in 429ms (DB: 0) | 302 Found [http://0.0.0.0/create]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2011-01-13 13:28:04) [GET]
+  Parameters: {"oauth_token"=>"75zWzrr8tA4W61pr7I1f", "oauth_verifier"=>"50e0SX9FtPZbbdCXRXFH"}
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`modyo_id` = '325485') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO `users` (`created_at`, `image_url`, `country`, `nickname`, `token`, `updated_at`, `modyo_id`, `sex`, `full_name`, `birthday`, `lang`, `secret`) VALUES('2011-01-13 16:28:05', '', 'pt', 'Ivan', 'pqrNIxQNk6DEez8rg4ux', '2011-01-13 16:28:05', 325485, 0, 'Ivan Gonzalez', '1982-09-01', 'es', 'Y1d85n9Bru1ZvQg7l2f4YtjtiVQijSialNjB1Uzu')[0m
+  [4;36;1mSQL (60.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Redirected to http://0.0.0.0:3001/
+Completed in 606ms (DB: 63) | 302 Found [http://0.0.0.0/callback?oauth_token=75zWzrr8tA4W61pr7I1f&oauth_verifier=50e0SX9FtPZbbdCXRXFH]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 13:28:05) [GET]
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#mail (for 127.0.0.1 at 2011-01-13 13:28:20) [GET]
+  [4;36;1mUser Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Completed in 4879ms (View: 4, DB: 1) | 200 OK [http://0.0.0.0/session/mail]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 14:53:34) [GET]
+Rendering site/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 14:53:48) [GET]
+Rendering site/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2011-01-13 14:53:50) [GET]
+Redirected to http://switchtv.staging.socialcrmsite.com//oauth/authorize?oauth_token=NS8SJqzylFQLUzPRyxtD
+Completed in 167ms (DB: 0) | 302 Found [http://0.0.0.0/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2011-01-13 14:53:57) [GET]
+  Parameters: {"oauth_token"=>"NS8SJqzylFQLUzPRyxtD", "oauth_verifier"=>"IY0hD88Dje10BMYC0CLV"}
+
+OAuth::Unauthorized (401 Authorization Required):
+  oauth (0.4.4) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:26:in `callback'
+
+Rendered rescues/_trace (20.0ms)
+Rendered rescues/_request_and_response (28.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 14:54:43) [GET]
+Rendering site/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2011-01-13 14:54:44) [GET]
+Redirected to http://switchtv.staging.socialcrmsite.com//oauth/authorize?oauth_token=fwLTiUJP6p9jNL1hPhAG
+Completed in 138ms (DB: 0) | 302 Found [http://0.0.0.0/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2011-01-13 14:54:44) [GET]
+  Parameters: {"oauth_token"=>"fwLTiUJP6p9jNL1hPhAG", "oauth_verifier"=>"TaX7FypX7tPJvDI3lqbp"}
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`modyo_id` = '325485') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-01-13 17:54:45', `secret` = 'wkchJPjpoknxwEGJtmTDNDjKV87pSFvdfDCjdpjl', `token` = 'lsdJslh8QoUsKhRUdvZb' WHERE `id` = 2[0m
+  [4;36;1mSQL (101.7ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://0.0.0.0:3001/
+Completed in 771ms (DB: 103) | 302 Found [http://0.0.0.0/callback?oauth_token=fwLTiUJP6p9jNL1hPhAG&oauth_verifier=TaX7FypX7tPJvDI3lqbp]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 14:54:45) [GET]
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 14:55:30) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2011-01-13 14:55:31) [GET]
+Redirected to http://switchtv.staging.socialcrmsite.com//oauth/authorize?oauth_token=AyGM3dVW2WcFBV9KDRA
+Completed in 104ms (DB: 0) | 302 Found [http://0.0.0.0/create]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2011-01-13 14:55:37) [GET]
+  Parameters: {"oauth_token"=>"AyGM3dVW2WcFBV9KDRA", "oauth_verifier"=>"82PE1jYVi6WZ5J61NWUj"}
+
+OAuth::Unauthorized (401 Authorization Required):
+  oauth (0.4.4) lib/oauth/consumer.rb:217:in `token_request'
+  oauth (0.4.4) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  app/controllers/session_controller.rb:26:in `callback'
+
+Rendered rescues/_trace (20.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 15:00:19) [GET]
+Rendering site/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2011-01-13 15:00:21) [GET]
+Redirected to http://switchtv.staging.socialcrmsite.com//oauth/authorize?oauth_token=9mPs4XAPOuiw1H5AHxh0
+Completed in 96ms (DB: 0) | 302 Found [http://0.0.0.0/create]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2011-01-13 15:00:22) [GET]
+  Parameters: {"oauth_token"=>"9mPs4XAPOuiw1H5AHxh0", "oauth_verifier"=>"A2EnO6B6FBNBLdHUa5W8"}
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`modyo_id` = '325485') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-01-13 18:00:22', `secret` = 'GEKU0gzZ6HtpTWiXR0mlfYW75umxV07kSywdXrqC', `token` = 'L000llbmEuQrTTrM0Qr2' WHERE `id` = 2[0m
+  [4;35;1mSQL (126.6ms)[0m   [0mCOMMIT[0m
+Redirected to http://0.0.0.0:3001/
+Completed in 282ms (DB: 129) | 302 Found [http://0.0.0.0/callback?oauth_token=9mPs4XAPOuiw1H5AHxh0&oauth_verifier=A2EnO6B6FBNBLdHUa5W8]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2011-01-13 15:00:22) [GET]
+Redirected to http://switchtv.staging.socialcrmsite.com//oauth/authorize?oauth_token=kBM3BwNyFAS0W2UwKVQ
+Completed in 325ms (DB: 0) | 302 Found [http://0.0.0.0/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2011-01-13 15:00:22) [GET]
+  Parameters: {"oauth_token"=>"kBM3BwNyFAS0W2UwKVQ", "oauth_verifier"=>"ubIJeuE6TEXter9R3v33"}
+  [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`modyo_id` = '325485') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-01-13 18:00:22', `secret` = 'UwFlPaJGb0CZ5s55DbObm2BmTkDCnWRij5UfAFZh', `token` = 'CWMe0S9OEcwMW3E3g42J' WHERE `id` = 2[0m
+  [4;36;1mSQL (80.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://0.0.0.0:3001/
+Completed in 276ms (DB: 82) | 302 Found [http://0.0.0.0/callback?oauth_token=kBM3BwNyFAS0W2UwKVQ&oauth_verifier=ubIJeuE6TEXter9R3v33]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 15:00:23) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#mail (for 127.0.0.1 at 2011-01-13 15:00:25) [GET]
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Completed in 2962ms (View: 4, DB: 1) | 200 OK [http://0.0.0.0/session/mail]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 17:10:45) [GET]
+Rendering site/index
+Completed in 49ms (View: 48, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2011-01-13 17:11:22) [GET]
+Redirected to http://switchtv.staging.socialcrmsite.com//oauth/authorize?oauth_token=LOcVlDjhCCAB6QG4I0Iz
+Completed in 302ms (DB: 0) | 302 Found [http://0.0.0.0/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2011-01-13 17:11:32) [GET]
+  Parameters: {"oauth_token"=>"LOcVlDjhCCAB6QG4I0Iz", "oauth_verifier"=>"qUu5Dj9g9rUeO09v3EAs"}
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`modyo_id` = '325485') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-01-13 20:11:32', `secret` = '8U1oBUacuu1kT4HmbI8zriP0PhDP0AAbuNhHqFpG', `token` = '37TwsE2uqG4SxWRwDNZo' WHERE `id` = 2[0m
+  [4;36;1mSQL (75.7ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://0.0.0.0:3001/
+Completed in 387ms (DB: 78) | 302 Found [http://0.0.0.0/callback?oauth_token=LOcVlDjhCCAB6QG4I0Iz&oauth_verifier=qUu5Dj9g9rUeO09v3EAs]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 17:11:32) [GET]
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#feed (for 127.0.0.1 at 2011-01-13 17:11:45) [GET]
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+
+ActionView::MissingTemplate (Missing template session/feed.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#feed (for 127.0.0.1 at 2011-01-13 17:20:03) [GET]
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+
+ActionView::MissingTemplate (Missing template session/feed.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#feed (for 127.0.0.1 at 2011-01-13 17:21:55) [GET]
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Completed in 336ms (View: 1, DB: 1) | 200 OK [http://0.0.0.0/session/feed]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#feed (for 127.0.0.1 at 2011-01-13 17:22:21) [GET]
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Completed in 280ms (View: 4, DB: 1) | 200 OK [http://0.0.0.0/session/feed]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 17:23:10) [GET]
+Rendering site/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 17:23:16) [GET]
+Rendering site/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2011-01-13 17:23:18) [GET]
+Redirected to http://switchtv.staging.socialcrmsite.com//oauth/authorize?oauth_token=sZsb23rPqG9T3HH0JXZg
+Completed in 105ms (DB: 0) | 302 Found [http://0.0.0.0/create]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2011-01-13 17:23:24) [GET]
+  Parameters: {"oauth_token"=>"sZsb23rPqG9T3HH0JXZg", "oauth_verifier"=>"X1PG4IEZ66WVIZMiicNO"}
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`modyo_id` = '325485') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-01-13 20:23:24', `secret` = 'ytBsm2z3p4kZckmPQpHM590PdqL1pkElpomsOQJt', `token` = 'RV1jNViOVdgCjpOn286s' WHERE `id` = 2[0m
+  [4;35;1mSQL (89.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://0.0.0.0:3001/
+Completed in 465ms (DB: 91) | 302 Found [http://0.0.0.0/callback?oauth_token=sZsb23rPqG9T3HH0JXZg&oauth_verifier=X1PG4IEZ66WVIZMiicNO]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 17:23:24) [GET]
+Rendering site/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#feed (for 127.0.0.1 at 2011-01-13 17:23:27) [GET]
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Completed in 105ms (View: 1, DB: 2) | 200 OK [http://0.0.0.0/session/feed]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#feed (for 127.0.0.1 at 2011-01-13 17:24:24) [GET]
+  [4;36;1mUser Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Completed in 144ms (View: 1, DB: 1) | 200 OK [http://0.0.0.0/session/feed]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 17:24:50) [GET]
+Rendering site/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 17:24:58) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2011-01-13 17:25:00) [GET]
+Redirected to http://switchtv.staging.socialcrmsite.com//oauth/authorize?oauth_token=ENzxXISzFLYjCfWDUeVD
+Completed in 109ms (DB: 0) | 302 Found [http://0.0.0.0/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2011-01-13 17:25:06) [GET]
+  Parameters: {"oauth_token"=>"ENzxXISzFLYjCfWDUeVD", "oauth_verifier"=>"TexKK5KCvsA3bfmpIN5n"}
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`modyo_id` = '325485') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-01-13 20:25:07', `secret` = 'LPvAzvM8nzs6cW1nK4KpB4CpShliJedrA5vLbeRt', `token` = 'EPH44gFg06ohfqUm0wow' WHERE `id` = 2[0m
+  [4;36;1mSQL (96.1ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://0.0.0.0:3001/
+Completed in 342ms (DB: 98) | 302 Found [http://0.0.0.0/callback?oauth_token=ENzxXISzFLYjCfWDUeVD&oauth_verifier=TexKK5KCvsA3bfmpIN5n]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 17:25:07) [GET]
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#feed (for 127.0.0.1 at 2011-01-13 17:25:08) [GET]
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Completed in 185ms (View: 3, DB: 1) | 200 OK [http://0.0.0.0/session/feed]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#feed (for 127.0.0.1 at 2011-01-13 17:27:58) [GET]
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Completed in 110ms (View: 1, DB: 1) | 200 OK [http://0.0.0.0/session/feed]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#feed (for 127.0.0.1 at 2011-01-13 17:29:42) [GET]
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Completed in 121ms (View: 1, DB: 1) | 200 OK [http://0.0.0.0/session/feed]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 17:40:12) [GET]
+Rendering site/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 17:40:21) [GET]
+Rendering site/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2011-01-13 17:40:23) [GET]
+Redirected to http://switchtv.staging.socialcrmsite.com//oauth/authorize?oauth_token=LDjxsBvVicqj6jLHN1kl
+Completed in 355ms (DB: 0) | 302 Found [http://0.0.0.0/create]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 17:41:26) [GET]
+Rendering site/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2011-01-13 17:41:27) [GET]
+Redirected to http://blackberry.socialcrmsite.dev:3000/oauth/authorize?oauth_token=be3W64hlVYq3c0DsUjgo
+Completed in 667ms (DB: 0) | 302 Found [http://0.0.0.0/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2011-01-13 17:41:38) [GET]
+  Parameters: {"oauth_token"=>"be3W64hlVYq3c0DsUjgo", "oauth_verifier"=>"cZ8o0OKSRA0Xi0iBWk4q"}
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`modyo_id` = '320985') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-01-13 20:41:40', `secret` = 'OEAYR7mfu0Oth4wgRWU9tiFTbZyrvrpCeGoECHqk', `token` = 'Yx3apJ2KjgqCUJzmbuYx' WHERE `id` = 1[0m
+  [4;36;1mSQL (72.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://0.0.0.0:3001/
+Completed in 1739ms (DB: 74) | 302 Found [http://0.0.0.0/callback?oauth_token=be3W64hlVYq3c0DsUjgo&oauth_verifier=cZ8o0OKSRA0Xi0iBWk4q]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 17:41:40) [GET]
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#feed (for 127.0.0.1 at 2011-01-13 17:41:44) [GET]
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Completed in 798ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/session/feed]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 17:46:13) [GET]
+Rendering site/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 17:46:33) [GET]
+Rendering site/index
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2011-01-13 17:46:35) [GET]
+Redirected to http://blackberry.socialcrmsite.dev:3000/oauth/authorize?oauth_token=uGruF7ogCi82WeRHxtc1
+Completed in 552ms (DB: 0) | 302 Found [http://0.0.0.0/create]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2011-01-13 17:46:45) [GET]
+  Parameters: {"oauth_token"=>"uGruF7ogCi82WeRHxtc1", "oauth_verifier"=>"0dDkpeBstAjKnEm0q7dn"}
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`modyo_id` = '320985') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-01-13 20:46:47', `secret` = 'b6f9TynVjXfsWBrLfPHGekHGZgfzsNtOyvMxPhBe', `token` = 'PKq35Nt3Z2CnpcGI7mpz' WHERE `id` = 1[0m
+  [4;35;1mSQL (65.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://0.0.0.0:3001/
+Completed in 1830ms (DB: 66) | 302 Found [http://0.0.0.0/callback?oauth_token=uGruF7ogCi82WeRHxtc1&oauth_verifier=0dDkpeBstAjKnEm0q7dn]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 17:46:47) [GET]
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#feed (for 127.0.0.1 at 2011-01-13 17:46:48) [GET]
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Completed in 880ms (View: 1, DB: 2) | 200 OK [http://0.0.0.0/session/feed]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 17:48:34) [GET]
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 17:48:42) [GET]
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2011-01-13 17:48:44) [GET]
+Redirected to http://blackberry.socialcrmsite.dev:3000/oauth/authorize?oauth_token=5tz3WRiMnWzUOsuU2R11
+Completed in 626ms (DB: 0) | 302 Found [http://0.0.0.0/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2011-01-13 17:48:52) [GET]
+  Parameters: {"oauth_token"=>"5tz3WRiMnWzUOsuU2R11", "oauth_verifier"=>"1Bu8Byi0ggjthL30DcX5"}
+  [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`modyo_id` = '320985') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-01-13 20:48:55', `secret` = 'Maa95W7puVGn2BJ4ES8Wf5vfy0y2nq0LhwjDRLpP', `token` = 'qywHJ2oi9cIOVAQpOLCF' WHERE `id` = 1[0m
+  [4;36;1mSQL (56.6ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://0.0.0.0:3001/
+Completed in 3019ms (DB: 59) | 302 Found [http://0.0.0.0/callback?oauth_token=5tz3WRiMnWzUOsuU2R11&oauth_verifier=1Bu8Byi0ggjthL30DcX5]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 17:48:55) [GET]
+Rendering site/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#feed (for 127.0.0.1 at 2011-01-13 17:48:56) [GET]
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Completed in 1103ms (View: 1, DB: 1) | 200 OK [http://0.0.0.0/session/feed]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 17:55:55) [GET]
+Rendering site/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 17:59:42) [GET]
+Rendering site/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2011-01-13 17:59:43) [GET]
+Redirected to http://blackberry.socialcrmsite.dev:3000/oauth/authorize?oauth_token=7UsDd6HzAao3ZN26Ciew
+Completed in 801ms (DB: 0) | 302 Found [http://0.0.0.0/create]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2011-01-13 17:59:52) [GET]
+  Parameters: {"oauth_token"=>"7UsDd6HzAao3ZN26Ciew", "oauth_verifier"=>"XfDUvWGnNbCtNXgoRf67"}
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`modyo_id` = '320985') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-01-13 20:59:54', `secret` = 'dUxoJitBai4ak89JKTvOXR7pLwphT9D8Cz9Tm1Cu', `token` = 'PbEkWuGW4FV50YymxQew' WHERE `id` = 1[0m
+  [4;35;1mSQL (94.8ms)[0m   [0mCOMMIT[0m
+Redirected to http://0.0.0.0:3001/
+Completed in 2108ms (DB: 96) | 302 Found [http://0.0.0.0/callback?oauth_token=7UsDd6HzAao3ZN26Ciew&oauth_verifier=XfDUvWGnNbCtNXgoRf67]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 17:59:54) [GET]
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#feed (for 127.0.0.1 at 2011-01-13 17:59:55) [GET]
+  [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Completed in 896ms (View: 1, DB: 2) | 200 OK [http://0.0.0.0/session/feed]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 18:10:56) [GET]
+Rendering site/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 18:10:58) [GET]
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#feed (for 127.0.0.1 at 2011-01-13 18:11:07) [GET]
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Completed in 659ms (View: 4, DB: 1) | 200 OK [http://0.0.0.0/session/feed]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 18:11:59) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2011-01-13 18:12:00) [GET]
+Redirected to http://blackberry.socialcrmsite.dev:3000/oauth/authorize?oauth_token=PvwMQMPYDZQi0P1wBcmF
+Completed in 1038ms (DB: 0) | 302 Found [http://0.0.0.0/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2011-01-13 18:12:10) [GET]
+  Parameters: {"oauth_token"=>"PvwMQMPYDZQi0P1wBcmF", "oauth_verifier"=>"NBw6BHOIklyMoCTZlt3a"}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`modyo_id` = '320985') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-01-13 21:12:12', `secret` = 'yzMxPfEUZDc6RFSqYNf8Dy7FqFJeeFivQZyO5Zsh', `token` = 'zLJgZ2bRTmB6UYUm5Bhq' WHERE `id` = 1[0m
+  [4;36;1mSQL (54.3ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://0.0.0.0:3001/
+Completed in 1718ms (DB: 56) | 302 Found [http://0.0.0.0/callback?oauth_token=PvwMQMPYDZQi0P1wBcmF&oauth_verifier=NBw6BHOIklyMoCTZlt3a]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 18:12:12) [GET]
+Rendering site/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#feed (for 127.0.0.1 at 2011-01-13 18:12:18) [GET]
+  [4;35;1mUser Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Completed in 1064ms (View: 1, DB: 1) | 200 OK [http://0.0.0.0/session/feed]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 18:21:31) [GET]
+Rendering site/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 18:21:44) [GET]
+Rendering site/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#create (for 127.0.0.1 at 2011-01-13 18:21:46) [GET]
+Redirected to http://blackberry.socialcrmsite.dev:3000/oauth/authorize?oauth_token=aqjq2aQGNxL8bHKWaw3Z
+Completed in 1039ms (DB: 0) | 302 Found [http://0.0.0.0/create]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#callback (for 127.0.0.1 at 2011-01-13 18:21:55) [GET]
+  Parameters: {"oauth_token"=>"aqjq2aQGNxL8bHKWaw3Z", "oauth_verifier"=>"SJfctKOoMfRPHZQGpFPT"}
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`modyo_id` = '320985') LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-01-13 21:21:57', `secret` = 'TEQxtCXgPJKwi9qRf6Jkhy7ZAZjzG8695hhFDWhu', `token` = 'T7KtO5UxYFqK9xs6tAyI' WHERE `id` = 1[0m
+  [4;35;1mSQL (44.5ms)[0m   [0mCOMMIT[0m
+Redirected to http://0.0.0.0:3001/
+Completed in 1790ms (DB: 46) | 302 Found [http://0.0.0.0/callback?oauth_token=aqjq2aQGNxL8bHKWaw3Z&oauth_verifier=SJfctKOoMfRPHZQGpFPT]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2011-01-13 18:21:57) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionController#feed (for 127.0.0.1 at 2011-01-13 18:21:59) [GET]
+  [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Completed in 777ms (View: 1, DB: 1) | 200 OK [http://0.0.0.0/session/feed]

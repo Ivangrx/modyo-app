@@ -9,7 +9,7 @@ require File.join(File.dirname(__FILE__), 'boot')
 Rails::Initializer.run do |config|
   
   config.gem "hpricot", :version => '0.6'
-  config.gem 'oauth', :version => '0.3.5'
+  config.gem 'oauth', :version => '0.4.4'
 
   config.time_zone = 'UTC'
 

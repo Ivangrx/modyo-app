@@ -6,5 +6,5 @@
   <h1>Welcome back <%= session[:user][:full_name] %></h1>
   <p>The following data could be extracted from your session: <%=  session[:user].inspect %></p>
   <p>Send a email with greetings: <%=  link_to "Send email", {:controller => 'session', :action => 'mail'} %></p>
-
+  <p>Send a feed: <%=  link_to "Send feed", {:controller => 'session', :action => 'feed'} %></p>
 <% end %>
