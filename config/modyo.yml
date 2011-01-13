@@ -1,7 +1,13 @@
 development:
-    key: ZwCiXbGtgSbeNAU8MnjFg
-    secret: xNoDZvllmBjk75ESlyC2tmJXzHY2ZI0kKexLtWQU
+   # key: Wg6u2vZJJRmN1KMg9ne4g
+   # secret: nU8R6rwYpz1UNZLSNBHjkEF8mQpYRs9wJWD4STu27Xo
+   # site: 	http://www.jcodesoftware.com
+
+    key: J3dXN7keuf8Mstdq8JR20A
+    secret: mjPw1F1dSHZm7Cwoa42wL3QKzMvDYfsRnbciDSJDYQ
     site: http://blackberry.socialcrmsite.dev:3000
+
+
 
 test:
     key: ZwCiXbGtgSbeNAU8MnjFg

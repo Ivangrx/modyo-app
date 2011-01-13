@@ -18,7 +18,7 @@ development:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: modyo-app_development
+  database: modyo_app_development
   pool: 5
   username: root
   password:

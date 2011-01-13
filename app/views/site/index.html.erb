@@ -3,6 +3,8 @@
   <p>Welcome to our cool site</p>
   <p>Please <%= link_to 'login', session_create_url %></p>
 <% else %>
-  <h1>Welcome back <%= session[:user][:name] %></h1>
+  <h1>Welcome back <%= session[:user][:full_name] %></h1>
   <p>The following data could be extracted from your session: <%=  session[:user].inspect %></p>
+  <p>Send a email with greetings: <%=  link_to "Send email", {:controller => 'session', :action => 'mail'} %></p>
+
 <% end %>
