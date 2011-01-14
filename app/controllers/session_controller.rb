@@ -75,24 +75,25 @@ class SessionController < ApplicationController
   end
 
   def mail
+
     @user = current_user
-    @access_token = OAuth::AccessToken.new(SessionController.consumer, @user.token, @user.secret)
     subjet = "Greetins from your new added app"
     message = "<p>Hello #{@user.full_name}.</p>
         <p>You recived a email from the new modyo app.</p>
         <p>Visit github modyo-app site for more information about the API.</p>
         <p>Regards Modyo Team.</p>"
-    response = @access_token.post("/api/base/mailer", {:recipient => @user.modyo_id, :message => message, :subjet => subjet})
-    user_info = Hpricot.parse(response.body)
-    render :xml => user_info
+    response = ModyoOauth::Connector.mail(@user, {:subjet => subjet, :message => message})
+
+    render :xml => response
   end
 
   def feed
+
     @user = current_user
-    @access_token = OAuth::AccessToken.new(SessionController.consumer, @user.token, @user.secret)
-    response =  @access_token.post("/api/base/feed", {:recipient => @user.modyo_id, :description => "invite his friends to this cool", :linkable => "Site", :link => "http://www.modyo.com"})
-    user_info = Hpricot.parse(response.body)
-    render :xml => user_info
+    options = {:description => "invite his friends to this cool", :linkable => "Site", :link => "http://www.modyo.com"}
+    response = ModyoOauth::Connector.feed(@user, options)
+
+    render :xml => response
   end
 
 
