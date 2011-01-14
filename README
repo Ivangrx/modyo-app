@@ -4,16 +4,8 @@ This little app demonstrates how to use Modyo OAuth API to authorize an applicat
 
 ## How to Get It Running
 
-- `gem install bundler`
-- `bundle install`
+- `Install oauth gem 0.4.4`
 
-Open up another terminal tab and do:
+Open file modyo.yml and change "key", "secret" and site "values" and run server.
 
-    API_KEY='your_key' API_SECRET='your_secret' bundle exec shotgun -p 3001
-
-Now open up `http://localhost:3001/` in your browser and everything should be ready to go!
-
-## Caveats
-
-- Check in requires a browser with HTML5 geolocation services
-- Safari seems to put on its propellerhead beanie when it asks for location. Sometimes it works, sometimes it doesn't.
+Now open up `http://0.0.0.0:3000/` in your browser and everything should be ready to go!
