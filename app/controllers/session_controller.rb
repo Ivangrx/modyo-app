@@ -90,7 +90,7 @@ class SessionController < ApplicationController
   def feed
 
     @user = current_user
-    options = {:description => "invite his friends to this cool", :linkable => "Site", :link => "http://www.modyo.com"}
+    options = {:description => "invited his friends to this great site: ", :linkable => "Modyo", :link => "http://www.modyo.com"}
     response = ModyoOauth::Connector.feed(@user, options)
 
     render :xml => response
